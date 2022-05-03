@@ -1,0 +1,13 @@
+@mixin button{
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@mixin hover-paint {
+  transition:ease-out 0.3s;
+  &:hover {
+    color: rgb(255, 103, 0);
+  }
+}
